@@ -1,0 +1,152 @@
+.main{
+    background-color: #00000;
+    height: 600px;
+}
+ .footer {
+     background-color: #00121b;
+     height:400px;
+     padding:0;
+     margin:0;
+     width: 100%;
+     display:block;
+ }
+ .inner-footer{
+     width: 95%;
+     margin: auto;
+     padding: 30px 10px;
+     display:flex;
+     flex-wrap:wrap;
+     box-sizing:border-box;
+     justify-content: center;
+ }
+
+ .footer-items{
+     width:25%;
+     padding: 0px 20px;
+     box-sizing:border-box;
+ }
+
+ .footer-items h1{
+     padding: 10px 0;
+     font-size:25px;
+     color:white;
+     text-transform: uppercase;
+ }
+  
+ .footer-items p{
+     color: grey;
+     font: size 16px;
+     text-align: justify;
+     line-height: 25px;
+ }
+
+ .footer-items h2{
+     margin:10px 0;
+     font-size: 16px;
+     color: grey;
+     font-weight:lighter;
+     text-transform: uppercase;
+ }
+
+ .border{
+     height: 2px;
+     width: 40px;
+     background: #ff9800;
+ }
+
+ .footer-items ul{
+     list-style: none;
+     color:#fff;
+     font-size: 15px;
+     letter-spacing: 0.5px;
+     display: block;
+   
+ }
+  .footer-items ul a {
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      transition: 0.3s;
+  }
+
+  .footer-items ul a:hover{
+      color:#ff9800;
+  }
+
+  .footer-items ul li{
+      margin: 10px 0;
+      height: 25px;
+      list-style-position: outside;
+  }
+
+  .footer-items li i{
+      margin-right: 20px;
+  }
+
+  .social-media{
+      widows: 100px;
+      color:#fff;
+      text-align: center;
+  }
+  .social-media a{
+      text-decoration: none;
+  }
+ .social-media i{
+     height: 15px;
+     width: 15px;
+     margin: 20px 5px;
+     padding: 10px;
+     color:#fff;
+     border-radius: 50%;
+     border: 1px solid grey;
+     transition: 0.3s;
+ }
+ .social-media i:hover{
+     background:grey;
+ }
+
+ .footer-bottom{
+     padding: 10px;
+     background:#3d545f;
+     color: #fff;
+     font-size: 12px;
+ }
+  
+ @media screen and (max-width: 1085px) {
+   .line {
+       width: 30px;
+       height: 3px;
+       background: white;
+       margin: 5px;
+   }
+
+   nav{
+       position: relative;
+   }
+
+   .Nyamata {
+       position: absolute;
+       cursor: pointer;
+       right: 5%;
+       top: 50%;
+       transform: translate(-5%, 50%);
+
+
+   }
+   .nav-links {
+       position: fixed;
+       background-color: blue;
+       height: 100vh;
+       width: 100%;
+       flex-direction: column;
+       display: none;
+   }  
+   .footer-items {
+         width:50%;
+     }
+ }
+ @media screen and (max-width: 600px) {
+   .footer-items {
+       width:100%;
+   }
+}
